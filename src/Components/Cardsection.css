@@ -1,0 +1,137 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #E2E0FF;
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Sans";
+  align-self: center;
+}
+
+.cards {
+  font-style: normal;
+  height: 334.5183410645px;
+  width: 343.0471191406px;
+  left: 177px;
+  top: 1023px;
+  border-radius: 19px;
+  background-color: white;
+  box-shadow: 0px 10px 50px rgba(61, 55, 241, 0.25);
+}
+.cards__background {
+  height: 197.109954834px;
+  width: 344px;
+}
+.cards__text-container {
+  display: flex;
+}
+.cards__text-container__date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cards__text-container__date span {
+  margin: 21.8px 22.74px 0px 23.69px;
+  font-weight: 700;
+  font-size: 11.3717px;
+  line-height: 15px;
+  text-align: center;
+  color: #3D37F1;
+}
+.cards__text-container__date p {
+  font-weight: 700;
+  font-size: 28.4293px;
+  line-height: 37px;
+  color: #000000;
+}
+.cards__text-container__text {
+  display: flex;
+  flex-direction: column;
+}
+.cards__text-container__text h3 {
+  margin: 19.9px 29.38px 9.48px 0px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+}
+.cards__text-container__text p {
+  margin: 0px 29.38px 22.74px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6A6A6A;
+}
+
+.card-section {
+  max-width: 1440px;
+  width: 100%;
+  background-color: white;
+}
+
+.upcoming-filter {
+  margin-top: 174px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 177px;
+  margin-right: 177px;
+}
+.upcoming-filter form {
+  display: flex;
+  gap: 20px;
+}
+.upcoming-filter h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  color: #242565;
+}
+.upcoming-filter select {
+  height: 46px;
+  width: 168px;
+  border-radius: 50px;
+  background: #F2F4FF;
+  padding: 14px;
+  border: none;
+  outline: none;
+  color: #1D275F;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 80px 177px 0px 177px;
+  gap: 28.43px;
+}
+.card-container__button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container button {
+  margin-top: 34px;
+  margin-bottom: 64px;
+  border: 1.5px solid #3D37F1;
+  color: #3D37F1;
+}/*# sourceMappingURL=Cardsection.css.map */

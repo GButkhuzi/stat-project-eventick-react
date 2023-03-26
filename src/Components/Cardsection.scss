@@ -1,0 +1,76 @@
+@import "../base-styles";
+@import "../card";
+
+.card-section {
+    max-width: 1440px;
+    width: 100%;
+    background-color: white;
+}
+
+
+
+.upcoming-filter {
+    margin-top: 174px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 177px;
+    margin-right: 177px;
+
+    & form {
+        display: flex;
+        gap: 20px;
+    }
+
+    & h2 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 49px;
+        color: #242565;
+    }
+
+    & select {
+        height: 46px;
+        width: 168px;
+        border-radius: 50px;
+        background: #F2F4FF;
+        padding: 14px;
+
+        border: none;
+        outline: none;
+
+        color: #1D275F;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+
+    }
+
+
+}
+
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 80px 177px 0px 177px;
+    gap: 28.43px;
+
+
+    &__button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    & button {
+        margin-top: 34px;
+        margin-bottom: 64px;
+        border: 1.5px solid #3D37F1;
+        color: #3D37F1;
+    }
+
+}

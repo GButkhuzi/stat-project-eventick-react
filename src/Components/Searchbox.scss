@@ -1,0 +1,42 @@
+@import "../base-styles";
+
+.search-box {
+    height: 140px;
+    width: 1086px;
+    background: #242565;
+    box-shadow: 0px 10px 50px rgba(61, 55, 241, 0.25);
+    border-radius: 20px;
+    position: absolute;
+    top: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 48px;
+}
+
+
+.search-box>form>label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+
+.search-box>form>input,
+.search-box>form>select {
+    width: 290px;
+    margin-top: 11px;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #7778B0;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background-color: #242565;
+}
